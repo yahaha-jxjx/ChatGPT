@@ -127,6 +127,34 @@ anthropic claude Api version.
 
 anthropic claude Api Url.
 
+### `BAIDU_API_KEY` (可选)
+
+Baidu Api Key.
+
+### `BAIDU_SECRET_KEY` (可选)
+
+Baidu Secret Key.
+
+### `BAIDU_URL` (可选)
+
+Baidu Api Url.
+
+### `BYTEDANCE_API_KEY` (可选)
+
+ByteDance Api Key.
+
+### `BYTEDANCE_URL` (可选)
+
+ByteDance Api Url.
+
+### `ALIBABA_API_KEY` (可选)
+
+阿里云（千问）Api Key.
+
+### `ALIBABA_URL` (可选)
+
+阿里云（千问）Api Url.
+
 ### `HIDE_USER_API_KEY` （可选）
 
 如果你不想让用户自行填入 API Key，将此环境变量设置为 1 即可。
@@ -159,6 +187,9 @@ anthropic claude Api Url.
 
 在Azure的模式下，支持使用`modelName@azure=deploymentName`的方式配置模型名称和部署名称(deploy-name)
 > 示例：`+gpt-3.5-turbo@azure=gpt35`这个配置会在模型列表显示一个`gpt35(Azure)`的选项
+
+在ByteDance的模式下，支持使用`modelName@bytedance=deploymentName`的方式配置模型名称和部署名称(deploy-name)
+> 示例: `+Doubao-lite-4k@bytedance=ep-xxxxx-xxx`这个配置会在模型列表显示一个`Doubao-lite-4k(ByteDance)`的选项
 
 
 ### `DEFAULT_MODEL` （可选）
